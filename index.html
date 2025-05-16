@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>5 Link Sekaligus dengan Kotak</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background-color: #f0f4f8; /* background biru muda */
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #75cfc0;
+      text-align: center;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin: 0 auto;
+      display: flex; /* Display items in a row */
+      flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+      justify-content: center; /* Center the items horizontally */
+      gap: 15px; /* Space between the items */
+    }
+    li {
+      width: calc(33.33% - 10px); /* Make each item take up a third of the row */
+    }
+    a {
+      display: block;
+      background-color: #8fadce; /* kotak biru */
+      color: rgb(249, 251, 252);
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 18px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      transition: background-color 0.3s ease;
+    }
+    a:hover {
+      background-color: #357abd;
+    }
+    /* Responsive styling for smaller screens */
+    @media (max-width: 768px) {
+      li {
+        width: calc(50% - 10px); /* Make each item take up half of the row on tablets */
+      }
+    }
+    @media (max-width: 480px) {
+      li {
+        width: 100%; /* Make each item take up full width on mobile devices */
+      }
+    }
+  </style>
+</head>
+<body>
+  <h2>Let's Start the Game</h2>
+  <ul>
+    <li><a href="https://wordwall.net/resource/13554976/memukul-jenis-buah" target="_blank">Pukul Tikusnya</a></li>
+    <li><a href="https://wordwall.net/resource/38755897/permainan-labirin" target="_blank">Permainan Labirin "Iman Kepada Allah"</a></li>
+    <li><a href="https://wordwall.net/resource/37977681/bahasa-jawa/aksara-jawa" target="_blank">Belajar Aksara Jawa yuk!</a></li>
+    <li><a href="https://wordwall.net/resource/33783052/bahasa-indonesia/pukul-ba-bi-bu-be-bo" target="_blank">Pukul Tikusnya!</a></li>
+    <li><a href="https://wordwall.net/resource/13512995/memasangkan-warna-untuk-anak-paud" target="_blank">Warna Apakah ini?</a></li>
+    <li><a href="https://wordwall.net/resource/56560406/perkalian/belajar-perkalian-asyik" target="_blank">Pukul Tikusanya,Belajar perkalian Asyik?</a></li>
+    <li><a href="https://wordwall.net/resource/92221201/quiz-seperempat-abad-dafa" target="_blank">Siapakah Aku ?</a></li>
+    <li><a href="https://wordwall.net/resource/19481289/agama/belajar-tajwid-hukum-nun-mati" target="_blank">Belajar Hukum Nun mati</a></li>
+    <li><a href="https://wordwall.net/id/resource/13551441/labirin-ppkn-lambang-dan-bunyi-pancasila" target="_blank">Mainkan yuk, Labirin Pancasila</a></li>
+    <li><a href="https://wordwall.net/resource/19453903/matematika/perkalianmenantang" target="_blank">Perkalian menanatang</a></li>
+    <li><a href="https://wordwall.net/id/resource/19586467/mencocokan-gambar" target="_blank">Main mencocokkan gambar yuk ?</a></li>
+    <li><a href="https://wordwall.net/resource/56088528/tts-cak-lontong" target="_blank">Asah Otak</a></li>
+    <li><a href="https://wordwall.net/resource/74432382/bahasa-indonesia/pasangkan-unsur-unsur-surat-dinas-berikut" target="_blank">Temukan Jawabannya di dasar palung mariana</a></li>
+    <li><a href="https://wordwall.net/resource/74432382/bahasa-indonesia/pasangkan-unsur-unsur-surat-dinas-berikut" target="_blank">Game Fiqih nih, mainkan yuk !</a></li>
+    <li><a href="https://wordwall.net/resource/13512995/memasangkan-warna-untuk-anak-paud" target="_blank">Cocokkan warna beserta bendanya yuk !</a></li>
+    <li><a href="https://wordwall.net/id/resource/20840115/ice-breaking-nabi-rasul" target="_blank">Ice breaking nabi dan rasul</a></li>
+    <li><a href="https://wordwall.net/id/resource/38300015/matematika/ice-breaking" target="_blank">Ice breaking Alt elektronik nih, mainkan yuk!</a></li>
+    <li><a href="https://wordwall.net/id/resource/19436897/agama/kuis-anak-sholeh" target="_blank">Quiz anak shaleh" Pesawat terbang" Jangan sampai menabrak ya !</a></li>
+  </ul>
+</body>
+</html>
